@@ -68,13 +68,11 @@ public class Journal
             "What are three things you're grateful for today?",
             "Describe a recent challenge you faced and how you overcame it.",
             "Write about a person who has had a significant impact on your life.",
-            "If you could travel anywhere in the world, where would you go and why?",
+            "If you could travel anywhere in the world where would you go and why?",
             "What are your top five goals for the next year?",
             "Write a letter to your future self.",
             "Describe your ideal day from start to finish.",
-            "Reflect on a mistake you've made and what you learned from it.",
-            "What are your favorite hobbies or activities, and why do you enjoy them?",
-            "Write about a book, movie, or piece of art that has inspired you recently."
+            "Reflect on a mistake you've made and what you learned from it."
         };
 
         // Generate a random prompt
