@@ -2,8 +2,8 @@ using System.Runtime.InteropServices;
 
 public class Fraction
 {
-    private int _top;
-    private int _bottom;
+    private double _top;
+    private double _bottom;
 
     // Constructors
     public Fraction()
