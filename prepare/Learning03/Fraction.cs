@@ -2,8 +2,8 @@ using System.Runtime.InteropServices;
 
 public class Fraction
 {
-    private double _top;
-    private double _bottom;
+    private int _top;
+    private int _bottom;
 
     // Constructors
     public Fraction()
@@ -53,6 +53,6 @@ public class Fraction
 
     public double GetDecimalValue()
     {
-        return _top / _bottom;
+        return (double) _top / _bottom;
     }
 }
