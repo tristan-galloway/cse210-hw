@@ -6,11 +6,17 @@ class Program
 {
     static void Main(string[] args)
     {
+        /*
+        For the stretch challenge I was trying to select only words 
+        that weren't hidden with the HideRandomWords() method but I
+        can't get it working.
+        */
+
         // initialize the objects needed for app
         string scriptureBody = "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.";
         Reference j35 = new("John", 3, 5);
         Scripture john35 = new(j35, scriptureBody);
-        // Initialize sentinal.
+        // Initialize sentinal
         bool keepPlaying = true;        
 
         do

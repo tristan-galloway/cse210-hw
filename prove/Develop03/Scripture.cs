@@ -24,12 +24,33 @@ class Scripture
     // Methods
     public void HideRandomWords(int numberToHide)
     {
+        // Base requirement model
         for (int i = 0; i < numberToHide; i++)
         {
             Random rnd = new();
             int wordIndex = rnd.Next(0, _words.Count);
             _words[wordIndex].Hide();
         }
+
+        // Create list of unhidden indexes
+        /* 
+        List<int> notHiddenIdex = new List<int>();
+
+        for (int i = 0; i < _words.Count; i++)
+        {
+            if (_words[i].IsHidden() == false)
+            {
+                notHiddenIdex.Add(i);
+            }
+        }
+
+        for (int i = 0; i < numberToHide; i++)
+        {
+            Random rnd = new();
+            int wordIndex = rnd.Next(0, notHiddenIdex.Count);
+            _words[notHiddenIdex[wordIndex]].Hide();
+        } 
+        */
     }
 
     public string GetDisplayText()
