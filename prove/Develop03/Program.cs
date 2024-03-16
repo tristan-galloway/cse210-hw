@@ -8,8 +8,8 @@ class Program
     {
         /*
         For the stretch challenge I was trying to select only words 
-        that weren't hidden with the HideRandomWords() method but I
-        can't get it working.
+        that weren't hidden already with the HideRandomWords() method 
+        but I can't seem to get it working.
         */
 
         // initialize the objects needed for app
