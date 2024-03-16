@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 class Word
 {
     // Member variables
@@ -5,25 +7,28 @@ class Word
     private bool _isHidden;
 
     // Constructors
-    Word(string text)
+    public Word(string text)
     {
         _text = text;
+        _isHidden = false;
     }
 
     // Methods
     public void Hide()
     {
-
+        string hide = new string ('_', _text.Length);
+        _text = hide;
+        _isHidden = true;
     }
 
     public void Show()
     {
-
+        _isHidden = false;
     }
 
-    public bool isHidden()
+    public bool IsHidden()
     {
-        return false;
+        return _isHidden;
     }
 
     public string GetDisplayText()
