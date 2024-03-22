@@ -19,7 +19,25 @@ class Program
             Console.Write("Select a choice from the menu: ");
             string answer = Console.ReadLine();
             response = int.Parse(answer);
-        }
-        
+
+            if (response == 1)
+            {
+                BreathingActivity bactivity = new();
+                bactivity.DisplayStartingMessage();
+                bactivity.Run();
+                bactivity.DisplayEndingMessage();
+            }
+            else if (response == 2)
+            {
+                ReflectingActivity ractivity = new();
+                ractivity.DisplayStartingMessage();
+                ractivity.Run();
+                ractivity.DisplayEndingMessage();
+            }
+            else if (response == 3)
+            {
+
+            }
+        } 
     }
 }

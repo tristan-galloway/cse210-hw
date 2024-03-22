@@ -3,7 +3,7 @@ public class ListingActivity : Activity
     private int _count;
     private List<string> _prompts;
 
-    public ListingActivity()
+    public ListingActivity() : base()
     {
 
     }
