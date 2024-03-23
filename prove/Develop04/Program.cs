@@ -2,10 +2,14 @@ using System;
 using System.Formats.Asn1;
 using System.Net;
 
+// I added a conuter for the total of activities completed and a closing message
+// as it clears the console.
+
 class Program
 {
     static void Main(string[] args)
     {
+        int activitiesComplete = 0;
         int response = 0;
 
         while (response != 4)
@@ -36,8 +40,18 @@ class Program
             }
             else if (response == 3)
             {
-
+                ListingActivity lactivity = new();
+                lactivity.DisplayStartingMessage();
+                lactivity.Run();
+                lactivity.DisplayEndingMessage();
             }
+
+            activitiesComplete++;
         } 
+
+        Console.Clear();
+        Console.WriteLine("Thank you for using the Mindfulness App. Enjoy the rest of your day.");
+        Thread.Sleep(5000);
+        Console.Clear();
     }
 }
