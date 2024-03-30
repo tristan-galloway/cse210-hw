@@ -1,0 +1,4 @@
+90
+SimpleGoal,Study,study for 30 minutes,10,True
+EternalGoal,Read scriptures,read the book of mormon for 30 minutes,20
+ChecklistGoal,Go to work,Work my assigned shifts this week,20,60,3,1
