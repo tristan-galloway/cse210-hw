@@ -1,0 +1,3 @@
+Final Project Plan
+
+I will be choosing the Foundation 4 assignment for my final project. I will build a program to handle youtube videos with their comments to show my knowledge of abstraction. A program to handle a online order system to show my abilities relating to encapsulation. A program to handle different kinds of events to show my ability to hadnle inheritance. Lastly, an app to manage and calculate different types of workout activities to show my abilities in polymophism
